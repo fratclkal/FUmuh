@@ -18,6 +18,7 @@ class CreateNewsTable extends Migration
             $table->string('title');
             $table->string('content',5000);
             $table->string('img_path');
+            $table->boolean('is_deleted');
             $table->timestamps();
         });
     }
