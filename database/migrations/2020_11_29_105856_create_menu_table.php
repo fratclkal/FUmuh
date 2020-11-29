@@ -20,6 +20,7 @@ class CreateMenuTable extends Migration
             $table->boolean('is_deleted');
             $table->timestamps();
             $table->string('tekinsajdkjasd');
+            $table->boolean('misafirgeldi');
         });
     }
 
