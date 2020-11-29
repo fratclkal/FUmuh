@@ -20,7 +20,6 @@ class CreateEventsTable extends Migration
             $table->date('history');
             $table->boolean('is_deleted');
             $table->timestamps();
-            $table->boolean('varMi');
         });
     }
 
