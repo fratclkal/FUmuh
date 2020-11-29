@@ -19,6 +19,7 @@ class CreateMenuTable extends Migration
             $table->string('content');
             $table->boolean('is_deleted');
             $table->timestamps();
+            $table->string('tekinsajdkjasd');
         });
     }
 
