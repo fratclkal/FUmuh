@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23039927-2272-469f-baab-a792db0c5129" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_27_223851_create_news_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_27_223851_create_news_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_27_225545_create_announcements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_27_225545_create_announcements_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1606516084909</updated>
       <workItem from="1606516096972" duration="1303000" />
-      <workItem from="1606517536387" duration="598000" />
+      <workItem from="1606517536387" duration="792000" />
+      <workItem from="1606565179964" duration="41000" />
+      <workItem from="1606567115803" duration="467000" />
+      <workItem from="1606590417549" duration="141000" />
+      <workItem from="1606594994692" duration="30000" />
+      <workItem from="1606646355565" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1606517855460</created>
@@ -186,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606517855460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1606518207908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606518207908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +215,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -209,10 +223,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1598" y="225" key="Vcs.Push.Dialog.v2" timestamp="1606517870319">
+    <state x="1598" y="225" key="Vcs.Push.Dialog.v2" timestamp="1606518214322">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
-    <state x="1598" y="225" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1606517870319" />
+    <state x="1598" y="225" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1606518214322" />
     <state x="1823" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606517571378">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
