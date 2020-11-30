@@ -16,10 +16,10 @@ class CreateAnnouncementsTable extends Migration
         Schema::create('announcements', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('content',5000);
+            $table->text('content');
             $table->string('img_path');
             $table->date('history');
-            $table->boolean('is_deleted');
+            $table->boolean('is_deleted');//0 not deleted 1 deleted
             $table->timestamps();
         });
     }

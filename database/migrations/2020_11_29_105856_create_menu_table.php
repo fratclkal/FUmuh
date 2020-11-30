@@ -16,8 +16,8 @@ class CreateMenuTable extends Migration
         Schema::create('menu', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('content');
-            $table->boolean('is_deleted');
+            $table->text('content');
+            $table->boolean('is_deleted');//0 not deleted 1 deleted
             $table->timestamps();
         });
     }

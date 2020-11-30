@@ -16,9 +16,9 @@ class CreateEventsTable extends Migration
         Schema::create('events', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('content',5000);
+            $table->text('content');
             $table->date('history');
-            $table->boolean('is_deleted');
+            $table->boolean('is_deleted');//0 not deleted 1 deleted
             $table->timestamps();
         });
     }

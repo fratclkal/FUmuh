@@ -17,8 +17,8 @@ class CreateSubMenuTable extends Migration
             $table->id();
             $table->unsignedBigInteger('menu_id');
             $table->string('title');
-            $table->string('content');
-            $table->boolean('is_deleted');
+            $table->text('content');
+            $table->boolean('is_deleted');//0 not deleted 1 deleted
             $table->timestamps();
 
             $table->foreign('menu_id')->references('id')->on('menu');
