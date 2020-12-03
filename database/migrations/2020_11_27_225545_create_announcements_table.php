@@ -19,7 +19,7 @@ class CreateAnnouncementsTable extends Migration
             $table->text('content');
             $table->string('img_path');
             $table->date('history');
-            $table->boolean('is_deleted');//0 not deleted 1 deleted
+            $table->boolean('is_deleted')->default(0);//0 not deleted 1 deleted
             $table->timestamps();
         });
     }

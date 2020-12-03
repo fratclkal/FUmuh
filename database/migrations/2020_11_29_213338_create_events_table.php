@@ -18,7 +18,7 @@ class CreateEventsTable extends Migration
             $table->string('title');
             $table->text('content');
             $table->date('history');
-            $table->boolean('is_deleted');//0 not deleted 1 deleted
+            $table->boolean('is_deleted')->default(0);//0 not deleted 1 deleted
             $table->timestamps();
         });
     }

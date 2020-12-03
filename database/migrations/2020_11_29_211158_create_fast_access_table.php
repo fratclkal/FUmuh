@@ -17,7 +17,7 @@ class CreateFastAccessTable extends Migration
             $table->id();
             $table->string('img_path');
             $table->string('url');
-            $table->boolean('is_deleted');//0 not deleted 1 deleted
+            $table->boolean('is_deleted')->default(0);//0 not deleted 1 deleted
             $table->timestamps();
         });
     }
