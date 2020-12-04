@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23039927-2272-469f-baab-a792db0c5129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FastAccessController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/fastAccesses/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/fastAccesses/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/fastAccesses/fastAccesses.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/fastAccesses/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/AnnouncementsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/MenuController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnnouncementsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnnouncementsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/EventsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FastAccessController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/FastAccessController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/panel/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/NewsController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +174,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\Desktop\Laravel Projeleri\FUmuh\app\Http\Controllers\panel" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -252,12 +258,12 @@
       <option name="project" value="LOCAL" />
       <updated>1606686061213</updated>
     </task>
-    <task id="LOCAL-00009" summary="EventsController--Bahar">
-      <created>1607042037525</created>
+    <task id="LOCAL-00009" summary="models commit">
+      <created>1607022315016</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1607042037525</updated>
+      <updated>1607022315016</updated>
     </task>
     <option name="localTasksCounter" value="10" />
     <servers />
@@ -282,19 +288,19 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Events DB" />
     <MESSAGE value="Events DB fix1" />
-    <MESSAGE value="EventsController--Bahar" />
-    <option name="LAST_COMMIT_MESSAGE" value="EventsController--Bahar" />
+    <MESSAGE value="models commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="models commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607043973421">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="402" y="87" key="NewPhpClassDialog" timestamp="1607033828021">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607043973421" />
-    <state x="348" y="238" key="Vcs.Push.Dialog.v2" timestamp="1607042045937">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="402" y="87" key="NewPhpClassDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1607033828021" />
+    <state x="1598" y="225" key="Vcs.Push.Dialog.v2" timestamp="1607022323900">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
-    <state x="1598" y="225" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1606648778864" />
-    <state x="348" y="238" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607042045937" />
+    <state x="1598" y="225" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1607022323900" />
+    <state x="348" y="238" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606686069269" />
     <state x="1823" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606517571378">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
