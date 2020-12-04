@@ -20,26 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23039927-2272-469f-baab-a792db0c5129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AnnouncementsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/announcements/announcements.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/announcements/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/announcements/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/announcements/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/events/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/events/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/events/events.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/events/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/news/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/news/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/news/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/CMS/news/news.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2020_00_14__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2020_00_14__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2020_00_36__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_11_2020_00_36__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_27_223851_create_news_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_27_223851_create_news_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_27_225545_create_announcements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_27_225545_create_announcements_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_29_105856_create_menu_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_29_105856_create_menu_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_29_210617_create_sub__menu_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_29_210617_create_sub__menu_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_29_211158_create_fast_access_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_29_211158_create_fast_access_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_29_213338_create_events_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_29_213338_create_events_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,14 +250,7 @@
       <option name="project" value="LOCAL" />
       <updated>1606686061213</updated>
     </task>
-    <task id="LOCAL-00009" summary="models commit">
-      <created>1607022315016</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1607022315016</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,18 +273,17 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Events DB" />
     <MESSAGE value="Events DB fix1" />
-    <MESSAGE value="models commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="models commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Events DB fix1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="402" y="87" key="NewPhpClassDialog" timestamp="1607033828021">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607040767627">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="402" y="87" key="NewPhpClassDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1607033828021" />
-    <state x="1598" y="225" key="Vcs.Push.Dialog.v2" timestamp="1607022323900">
-      <screen x="1366" y="0" width="1280" height="984" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607040767627" />
+    <state x="348" y="238" key="Vcs.Push.Dialog.v2" timestamp="1606686069269">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1598" y="225" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1607022323900" />
+    <state x="1598" y="225" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1606648778864" />
     <state x="348" y="238" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606686069269" />
     <state x="1823" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606517571378">
       <screen x="1366" y="0" width="1280" height="984" />
