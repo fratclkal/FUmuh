@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23039927-2272-469f-baab-a792db0c5129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/AnnouncementsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/MenuController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/subMenuController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/CMS/submenus/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/CMS/submenus/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/CMS/submenus/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/CMS/submenus/submenus.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnnouncementsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnnouncementsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/EventsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FastAccessController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/FastAccessController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/panel/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/panel/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/EventsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/panel/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/panel/MenuController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +177,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elifh\Desktop\asdasd\app\Http\Controllers\panel" />
       <recent name="C:\Users\Hp\Desktop\Laravel Projeleri\FUmuh\app\Http\Controllers\panel" />
     </key>
   </component>
@@ -201,6 +203,8 @@
       <workItem from="1606594994692" duration="30000" />
       <workItem from="1606646355565" duration="2225000" />
       <workItem from="1606684839898" duration="1431000" />
+      <workItem from="1607091477697" duration="1957000" />
+      <workItem from="1607114761131" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1606517855460</created>
@@ -292,6 +296,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="models commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607114981943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607114981943" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607115101918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607115101918" />
     <state x="402" y="87" key="NewPhpClassDialog" timestamp="1607033828021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

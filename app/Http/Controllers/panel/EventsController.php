@@ -32,7 +32,7 @@ class EventsController extends Controller
 
         $title = strip_tags(request('title'));
         $content = strip_tags(request('content'));
-
+        //kontrolleri validate ile yap
         if(!empty($title) && strlen($title) <= 255 && !empty($content) && strlen($content) <= 5000){
             $events = new Event();
             $events -> title = $title;

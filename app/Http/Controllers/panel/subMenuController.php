@@ -2,26 +2,24 @@
 
 namespace App\Http\Controllers\panel;
 
-use App\Http\Controllers\Controller;
-use App\Models\Menu;
+use App\Models\Submenu;
 use Illuminate\Http\Request;
-use function PHPUnit\Framework\isNull;
 
-class MenuController extends Controller
+class subMenuController extends Controller
 {
     public function menu(){
-        $menu = Menu::all();
-        return view('CMS.menu.menu',compact('menu'));
+        $subMenu = Submenu::all();
+        return view('CMS.submenus.submenus',compact('subMenu'));
     }
     public function index()
     {
-
+        return view('CMS.submenus.list',compact('submenus'));
     }
 
 
     public function create()
     {
-        return view('CMS.menu.create');
+        return view('CMS.submenus.create');
     }
 
 
@@ -31,30 +29,30 @@ class MenuController extends Controller
         $content = strip_tags(\request('content'));
 
         if(!empty($title) && strlen($title) && !empty($content) && strlen($content)){
-            $menu = new Menu();
+            $subMenu = new Submenu();
             $title -> title = request('title');
             $content -> content = request('content');
-            $menu -> save();
+            $subMenu -> save();
         }
-        return redirect() -> route('CMS.menu.create');
+        return redirect() -> route('CMS.submenus.create');
     }
 
 
     public function delete($id)
     {
-        $menu = Menu::find($id);
-        $menu -> update(['is_deleted'=>1]);
-        return redirect() -> route('CMS.menu.list');
+        $subMenu = Submenu::find($id);
+        $subMenu -> update(['is_deleted'=>1]);
+        return redirect() -> route('CMS.submenus.list');
     }
 
 
     public function edit($id)
     {
-        $menu = Menu::find($id);
-        $menu -> title = request('title');
-        $menu -> content = request('content');
-        $menu -> save();
-        return view('CMS.menu.edit',compact('menu'));
+        $subMenu = Submenu::find($id);
+        $subMenu -> title = request('title');
+        $subMenu -> content = request('content');
+        $subMenu-> save();
+        return view('CMS.submenus.edit',compact('subMenu'));
 
     }
 
@@ -63,13 +61,13 @@ class MenuController extends Controller
     {
         $fileName = null;
         if(isNull($fileName)){
-            Menu::find($id) -> update([
+            Submenu::find($id) -> update([
                 'title' => request('title'),
                 'content' => request('content'),
             ]);
         }
         else{
-            Menu::find($id) -> update([
+            Submenu::find($id) -> update([
                 'title' => request('title'),
                 'content' => request('content'),
             ]);
@@ -77,8 +75,5 @@ class MenuController extends Controller
     }
 
 
-    public function destroy($id)
-    {
 
-    }
 }
